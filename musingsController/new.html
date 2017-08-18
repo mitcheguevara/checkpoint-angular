@@ -1,0 +1,11 @@
+<h2>New Musing</h2>
+
+<form>
+  <input placeholder="Title" data-ng-model="vm.musing.title" />
+  <input placeholder="Content" data-ng-model="vm.musing.content" />
+  <input placeholder="Author" data-ng-model="vm.musing.author" />
+</form>
+
+<pre>
+  {{vm.musing| json}}
+</pre>
